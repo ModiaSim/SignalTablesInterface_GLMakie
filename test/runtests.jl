@@ -5,7 +5,7 @@ using  Test
 
 @testset "Test SignalTablesInterface_GLMakie/test" begin
     SignalTables.usePlotPackage("GLMakie")
-    include("$(SignalTables.path)/test/runtests_with_plot.jl")
+    include("$(SignalTables.path)/test/include_all.jl")
     SignalTables.usePreviousPlotPackage()
 end
 
