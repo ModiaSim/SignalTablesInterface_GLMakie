@@ -1,8 +1,7 @@
 # SignalTablesInterface_GLMakie
 
 This package is an interface from [SignalTables](https://github.com/ModiaSim/SignalTables.jl) to 
-[GLMakie](https://github.com/JuliaPlots/GLMakie.jl) (= a
-Julia interface to GLMakie)
+[GLMakie](https://github.com/JuliaPlots/Makie.jl) (= Julia interface to backend GLMakie of Makie.jl)
 in order to be able to perform convenient line plots in SignalTables via PyPlot.
 
 SignalTablesInterface_GLMakie is usually not directly used, but is activated via package
