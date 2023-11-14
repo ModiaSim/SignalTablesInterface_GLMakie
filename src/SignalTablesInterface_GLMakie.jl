@@ -5,8 +5,8 @@ module SignalTablesInterface_GLMakie
 const headingSize = 10
 
 const path = dirname(dirname(@__FILE__))   # Absolute path of package directory
-const Version = "0.1.2"
-const Date = "2022-08-07"
+const Version = "0.1.3"
+const Date = "2023-11-14"
 
 println("Importing SignalTablesInterface_GLMakie Version $Version ($Date) - this takes some time due to GLMakie import")
 
